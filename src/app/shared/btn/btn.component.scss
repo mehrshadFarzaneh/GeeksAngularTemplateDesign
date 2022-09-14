@@ -1,0 +1,96 @@
+.btn{
+  padding: 12px 20px 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s;
+  border-radius: 0.25rem;
+  &:focus{
+    box-shadow: 0 0 0 0.25rem rgba(60,211,167,.5);
+    outline: 0;
+  }
+}
+.primary{
+  --bs-btn-color: #fff;
+--bs-btn-bg: #754ffe;
+--bs-btn-border-color: #754ffe;
+--bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #6343d8;
+--bs-btn-hover-border-color: #5e3fcb;
+--bs-btn-focus-shadow-rgb: 138,105,254;
+--bs-btn-active-color: #fff;
+--bs-btn-active-bg: #5e3fcb;
+--bs-btn-active-border-color: #583bbf;
+--bs-btn-active-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+--bs-btn-disabled-color: #fff;
+--bs-btn-disabled-bg: #754ffe;
+--bs-btn-disabled-border-color: #754ffe;
+display: inline-block;
+line-height: var(--bs-btn-line-height);
+color: var(--bs-btn-color);
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+user-select: none;
+border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+background-color: var(--bs-btn-bg);
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+&:focus,&:hover{
+  color: white !important;
+background-color: var(--bs-btn-hover-bg);
+border-color: #583bbf;
+}
+&:focus{
+  box-shadow: 0 0 0 .25rem rgba(138,105,254,.5);
+  outline: 0;
+}
+}
+.susses{
+  color: white;
+  background-color: #19cb98;
+  border: 1px solid #19cb98;
+  &:hover{
+    background-color: #15ad81;
+    border-color: #14a27a;
+    color: #fff !important;
+  }
+}
+.primary-outline{
+  color: #754ffe;
+  background-color: transparent;
+  border: 1px solid #754ffe;
+  &:hover{
+    background-color: #754ffe;
+    border-color: #754ffe;
+    color: #fff !important;
+  }
+  &:focus{
+    box-shadow: 0 0 0 .25rem rgba(138,105,254,.5);
+    outline: 0;
+  }
+}
+.white{
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  &:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+  }
+  &:focus{
+    box-shadow: 0 0 0 0.25rem rgba(217,217,217,.5) !important;
+    outline: 0;
+  }
+}
+.big{
+  flex-grow: 1;
+}

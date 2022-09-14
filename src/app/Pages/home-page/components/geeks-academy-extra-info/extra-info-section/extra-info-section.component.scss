@@ -1,0 +1,28 @@
+.box{
+  align-items: center;
+  .text-side{
+    margin-left: 1rem !important;
+    p{
+      color:#5c5776;
+    }
+  }
+}
+.circle{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% !important;
+  background-color: rgb(255,238,218);
+svg{
+  width: 16px !important;
+  height: 16px !important;
+}
+}
+
+::ng-deep .box .circle svg{
+  width: 16px !important;
+  height: 16px !important;
+  color: rgb(194,129,53);
+}

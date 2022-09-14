@@ -1,0 +1,24 @@
+
+.box-extra-info{
+  width: 100vw;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(3,0,71,.09)!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 96px;
+  padding: 24px 0px 24px 0px;
+  &__container{
+    margin: 0 auto;
+    width: 1140px;
+    // padding: 0 12px 0 12px;
+    padding: 0 12px 0 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+app-extra-info-section{
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
