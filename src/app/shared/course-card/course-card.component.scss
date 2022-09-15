@@ -3,6 +3,9 @@
   margin: 0 1px;
 }
   .course-card {
+    :hover{
+      cursor: pointer;
+    }
     --bs-card-spacer-y: 1.5rem;
     --bs-card-spacer-x: 1.5rem;
     --bs-card-title-spacer-y: 0.5rem;
@@ -62,13 +65,13 @@
           color: #5c5776;
           display: flex;
           align-items: center;
-          
+
           .text{
             margin-top: 3px;
           }
         }
         .genral-infromation__row--time{
-          
+
           margin-right: 8px;
           svg{
             color: #a8a3b9!important;
@@ -145,4 +148,7 @@
     width: 14px;
     height: 14px;
     color: #a8a3b9!important;
+  }
+  h4:hover{
+    color:rgb(117, 79, 254) !important;
   }

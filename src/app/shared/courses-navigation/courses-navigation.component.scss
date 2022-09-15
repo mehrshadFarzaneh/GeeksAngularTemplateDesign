@@ -10,3 +10,40 @@
     margin-bottom: 1.5rem!important;
   }
 }
+.custom-button-next,.custom-button-prev{
+  position: absolute;
+    transform: translate(-50%, 0);
+    position: absolute;
+    /* left: 50%; */
+    top: 55%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+    transition: 0.214s ease-in-out all;
+    @media only screen and (max-width: 820px){
+      top: 106%;
+      }
+    svg{
+      width: 16px;
+      height: 16px;
+    }
+    &:hover{
+      cursor: pointer;
+      color: white;
+      background-color: rgb(117, 79, 254) !important;
+    }
+
+}
+.right-btn{
+  right: -50px;
+  @media only screen and (max-width: 820px){
+    right: 45%;
+    }
+}
+.left-btn{
+  left: -20px;
+  @media only screen and (max-width: 820px){
+    left: 45%;
+    }
+}
