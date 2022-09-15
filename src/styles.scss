@@ -359,3 +359,12 @@ a{
     cursor: pointer;
   }
 }
+.hidePrice{
+  text-decoration: line-through;
+  color: #a8a3b9 !important;
+}
+.boldPrice{
+  font-weight: 700 !important;
+  color:rgb(24, 17, 60);
+  font-size: 24px;
+}

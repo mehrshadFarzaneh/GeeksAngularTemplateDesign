@@ -12,7 +12,6 @@ export class CourseCardComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    console.log(this.course)
   }
   goToPage(id:string) {
     this.router.navigate(['course/'+id]);

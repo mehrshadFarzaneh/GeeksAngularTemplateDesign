@@ -302,15 +302,7 @@ color: rgb(92, 87, 118);
   .price{
     margin-bottom: 16px;
   }
-.hidePrice{
-  text-decoration: line-through;
-  color: #a8a3b9 !important;
-}
-.boldPrice{
-  font-weight: 700 !important;
-  color:rgb(24, 17, 60);
-  font-size: 24px;
-}
+
 .buttons{
   app-btn:first-child{
     margin-bottom: 8px;
