@@ -1,0 +1,14 @@
+{
+  "bannerTitle":"تست",
+  "homePage":{
+    "bannerTitle": "به برنامه آموزشی Geeks UI خوش آمدید",
+    "bannerDescribe":"مربی دست‌چین شده و دوره‌های ماهرانه طراحی شده برای دانشجویان و کارآفرینان مدرن."
+
+  },
+  "Browse courses":"مرور دوره ها",
+    "Are You Instructor?": "ورود مدرسین",
+  "course": {
+      "describe": "Translation demo",
+      "instructorName": "Mehrshad Farzaneh"
+  }
+}

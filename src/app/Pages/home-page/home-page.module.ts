@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-page-routing.module';
 import { GeeksAcademyExtraInfoComponent } from './components/geeks-academy-extra-info/geeks-academy-extra-info.component';
 import { HomePageComponent } from './home-page.component';
 import { ExtraInfoSectionComponent } from './components/geeks-academy-extra-info/extra-info-section/extra-info-section.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -15,7 +16,7 @@ import { ExtraInfoSectionComponent } from './components/geeks-academy-extra-info
   imports: [
     CommonModule,
     HomePageRoutingModule,
-    SharedModule
+    SharedModule,TranslateModule
   ],
   declarations: [
     HomePageComponent,

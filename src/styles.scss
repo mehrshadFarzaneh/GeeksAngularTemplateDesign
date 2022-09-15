@@ -233,6 +233,10 @@ app-courses-navigation{
 .white-blood{
   padding-bottom: 86px;
 }
+.purple{
+  color:#6c4cea;
+}
+
 /* #endregion */
 
 
@@ -247,14 +251,14 @@ app-courses-navigation{
   :root{
     --global-container: 960px;
   }
- 
+
   .banner{
     height: initial !important;
   }
 
 .head-txt > *{
   flex: 0 0 auto;
-  width: 58.33333%; 
+  width: 58.33333%;
 }
 
   .global-container{
@@ -262,6 +266,20 @@ app-courses-navigation{
   }
   }
   @media only screen and (max-width: 990px){
+    .box-extra-info{
+      display: table !important;
+    }
+    .box-extra-info__container{
+      flex-wrap: wrap;
+    }
+    app-extra-info-section{
+      flex-grow: 1 !important;
+      width: 34% !important;
+      // padding-top: 20px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      max-width: 720px !important;
+    }
     .hide-onTBV{
       display: none !important;
     }
@@ -281,7 +299,7 @@ app-courses-navigation{
           width: 100% !important;
         }
       }
-      
+
     }
     .global-container{
       max-width: 720px !important;
@@ -300,14 +318,29 @@ app-courses-navigation{
       p{
         margin-bottom: 16px !important;
       }
-      
-    } 
+
+    }
     .head-txt > *{
       width: 100%;
-    } 
+    }
     .pink-blood{
       padding-bottom: 96px !important;
     }
+    }
+    @media only screen and (max-width: 772px){
+      app-extra-info-section{
+        width: 100% !important;
+      }
+      .global-container{
+        max-width: 100% !important;
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+      // .container{
+      //   max-width: 100% !important;
+      //   padding-left:12px;
+      //   padding-right:12px;
+      // }
     }
 
 @media only screen and (max-width: 720px){
@@ -316,7 +349,7 @@ app-courses-navigation{
   }
   .head-txt > *{
     flex: 0 0 auto;
-    width: 100%; 
+    width: 100%;
     padding-right: 32px;
   }
   }

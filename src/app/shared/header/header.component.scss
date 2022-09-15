@@ -136,7 +136,7 @@ ul{
       padding: .125rem 1.2rem;
       display: flex;
       justify-content: space-between;
-      
+
       &:hover{
         background-color: #f5f4f8;
         border-radius: 0;
@@ -221,11 +221,11 @@ input[type="search"]{
 }
 /*#region           hamberger*/
 .visuallyHidden {
-  position: absolute; 
-  overflow: hidden; 
-  clip: rect(0 0 0 0); 
-  height: 1px; width: 1px; 
-  margin: -1px; padding: 0; border: 0; 
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
 }
 
 h1 {
@@ -261,7 +261,7 @@ h1 {
   display: block;
   border-radius: 4px;
   transition: all 0.4s ease-in-out;
-  position: absolute; 
+  position: absolute;
 }
 
 .bar1 {
@@ -361,7 +361,7 @@ h1 {
     // display: initial;
     top: initial !important;
   }
-  
+
   a{
     color: black;
     color: #18113c;
@@ -374,3 +374,114 @@ h1 {
     padding: .5rem 0!important;
   }
 }
+.dropdown-last li a{
+  display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 16px;
+    svg{
+      color: #6c4cea;
+    }
+    h4{
+      font-size: .875rem;
+    color: #18113c;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 8px;
+    }
+    p{
+      color: #18113c;
+    font-size: .805rem;
+    font-weight: 500;
+    }
+    .flex-col{
+      width: 100%;
+    display: flex;
+    }
+}
+.dropdown-header{
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ecebf1 !important;
+}
+.relative{
+  position: relative;
+  .dropdown{
+    // left: -420%;
+    top:16px;
+  }
+}
+.dot{
+  width: 24px;
+height: 8px;
+  background-color: rgb(121, 117, 143);
+  border-radius: 50%;
+}
+.scrollable{
+  img{
+    width: 2.5rem;
+height: 2.5rem;
+border-radius: 50%;
+max-width: initial !important;
+  }
+  .notifaction{
+    padding: 16px 20px;
+    gap: 16px;
+    border-bottom: 1px solid #ecebf1 !important;
+    border-top: 1px solid #ecebf1 !important;
+    h4{
+font-weight: 500;
+line-height: 1.4;
+color: #18113c;
+    }
+    p{
+      color: #18113cda;
+      font-size: .805rem;
+      font-weight: 400;
+    }
+  }
+}
+#notifyaction-btn{
+  &:hover + .dropdown, &:hover +.dropdown *{
+    // margin-top: 18px !important;
+    opacity: 1 !important;
+background-color: white !important;
+visibility: initial !important;
+transition: 0.2s ease-in-out opacity, 0.2s ease-in-out background-color, 0.4s ease-in-out visibility;
+  }
+}
+#notifyaction-btn{
+  &:hover + .dropdown{
+    margin-top: 18px !important;
+  }}
+#baidsb:hover{
+  *{
+    opacity: 1 !important;
+background-color: white !important;
+visibility: initial !important;
+transition: 0.2s ease-in-out opacity, 0.2s ease-in-out background-color, 0.4s ease-in-out visibility;
+  }
+  margin-top: 18px !important;
+  opacity: 1 !important;
+background-color: white !important;
+visibility: initial !important;
+transition: 0.2s ease-in-out opacity, 0.2s ease-in-out background-color, 0.4s ease-in-out visibility;
+}
+.scrollable{
+  height: 268px;
+overflow-x: auto;
+}
+a{
+  transition: 0.2134 ease-in-out all;
+}
+.hamberger-btn{
+  display: none;
+}
+@media only screen and (max-width: 990px) {
+  .hamberger-btn{
+    display: inline-block;
+  }
+  }

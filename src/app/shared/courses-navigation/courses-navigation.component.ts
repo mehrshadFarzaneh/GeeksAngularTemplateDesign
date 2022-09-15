@@ -1,6 +1,6 @@
 import { Course } from './../../Models/course';
 import { CoursesService } from './../../Services/courses.service';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import SwiperCore, { SwiperOptions, Navigation, Autoplay } from 'swiper';
 SwiperCore.use([Navigation, Autoplay]);
@@ -11,6 +11,7 @@ SwiperCore.use([Navigation, Autoplay]);
   styleUrls: ['./courses-navigation.component.scss']
 })
 export class CoursesNavigationComponent implements OnInit, OnDestroy {
+  @Input() title:string="Title Of Section"
   courses: Course[] = [];
   private coursesSubscription!: Subscription;
   config: SwiperOptions = {

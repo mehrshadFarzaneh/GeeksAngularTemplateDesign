@@ -1,0 +1,13 @@
+{
+  "bannerTitle":"test",
+  "homePage":{
+    "bannerTitle": "Welcome to Geeks UI Learning Application",
+    "bannerDescribe":"Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.",
+    "pBtn":"Browse courses",
+    "sBtn": "Are You Instructor?"
+  },
+  "course": {
+      "describe": "Translation demo",
+      "instructorName": "Mehrshad Farzaneh"
+  }
+}

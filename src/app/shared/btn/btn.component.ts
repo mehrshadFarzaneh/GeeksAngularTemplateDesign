@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BtnComponent implements OnInit {
   @Input() url: string = "#";
-  @Input() title?: string = "Null String";
+  @Input() title: string = "Null String";
   @Input() typeColor: string = "primary";
   @Input() size: string = "normal";
   constructor() { }

@@ -6,6 +6,10 @@ import { FormsModule } from '@angular/forms';
 import { CoursesNavigationComponent } from './courses-navigation/courses-navigation.component';
 import { SwiperModule } from 'swiper/angular';
 import { TooltipComponent } from './tooltip/tooltip.component';
+import { DropdownMenuComponent } from './dropdown-menu/dropdown-menu.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -14,17 +18,21 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 BtnComponent,
     CoursesNavigationComponent,
 CourseCardComponent,
-    TooltipComponent
+    TooltipComponent,
+    DropdownMenuComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    SwiperModule
+    SwiperModule,
+    TranslateModule
   ],
   exports: [
     BtnComponent,
     CoursesNavigationComponent,
-    CourseCardComponent
+    CourseCardComponent,
+
   ]
 })
 export class SharedModule { }
+
