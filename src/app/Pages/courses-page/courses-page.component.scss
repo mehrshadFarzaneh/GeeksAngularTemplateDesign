@@ -1,3 +1,12 @@
+.active-tab{
+  position: relative !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  color: rgb(117, 79, 254) !important;
+  &::after{
+    height: 2px !important;
+  }
+}
 .pink-blood{
   background-color: rgb(117, 79, 254);
   padding-bottom: 120px;
@@ -40,7 +49,7 @@ line-height: 32px;
         width: 16px;
         height: 16px;
       }
-     
+
     }
   }
 }
@@ -50,7 +59,7 @@ line-height: 32px;
     width: 14px !important;
   height: 14px !important;
   }
-  
+
 }
 
 .tab-section__continer{
@@ -88,7 +97,7 @@ background-color: var(--bs-card-bg);
 background-clip: border-box;
 border: var(--bs-card-border-width) solid var(--bs-card-border-color);
 border-radius: var(--bs-card-border-radius);
-  
+
 .tab-section__nav{
   display: flex;
 flex-wrap: wrap;
@@ -105,7 +114,7 @@ display: flex;
   position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
-  color:rgb(121, 117, 143) !important;
+  color:rgb(121, 117, 143);
 &:hover{
   color: #754ffe !important;
 }
@@ -264,9 +273,9 @@ max-height: 500px !important;
     position: relative;
     a{
       position: absolute;
-      left: 50%;  
-      top: 50%; 
-      transform: translate(-50%, -50%);  
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       margin: 0;
       .play-video__btn{
         border-radius: 50%;
@@ -311,7 +320,7 @@ color: rgb(92, 87, 118);
 .extra-box__header-whats-in{
   padding: 16px 24px;
   border:1px solid #ecebf1;
- 
+
 }
 .include-item{
   display: flex;
@@ -347,7 +356,7 @@ color: rgb(92, 87, 118);
   height: 5rem;
     width: 5rem;
     border-radius: 50%!important;
-    
+
 }
 .Instructor__info{
   margin-left: 1.5rem;
@@ -424,3 +433,5 @@ h4{
       width: 100%;
     }
   }
+
+

@@ -16,7 +16,7 @@ export class CoursesPageComponent implements OnInit {
   flagContentFAQ: boolean = true;
   ngOnInit(): void {
     this.router.paramMap.subscribe(paramMap => {
-      if (paramMap.has('id')) { 
+      if (paramMap.has('id')) {
         this.coursesProvider.getCourse(Number(paramMap.get('id'))).subscribe(response => {
           this.currentCourse = response;
          });
@@ -36,5 +36,7 @@ export class CoursesPageComponent implements OnInit {
       element?.classList.add("open-lectures");
     }
   }
-
+  toggleActiveTab() {
+    this.flagContentFAQ = !this.flagContentFAQ;
+  }
 }
