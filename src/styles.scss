@@ -341,11 +341,17 @@ app-courses-navigation{
       //   padding-left:12px;
       //   padding-right:12px;
       // }
+      .box-extra-info__container{
+        width: 512px !important;
+      }
     }
 
 @media only screen and (max-width: 720px){
   :root{
     --global-container: 540px !important;
+  }
+  .openInLeft {
+    left: -210px !important;
   }
   .head-txt > *{
     flex: 0 0 auto;
@@ -368,3 +374,7 @@ a{
   color:rgb(24, 17, 60);
   font-size: 24px;
 }
+.dis-handle--after::after{
+display: none;
+}
+

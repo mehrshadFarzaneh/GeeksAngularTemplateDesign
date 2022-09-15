@@ -1,6 +1,6 @@
 <div>
   <div class="course-card">
-    <img src="{{course.img}}" class="course-card__img-top" (click)="goToPage(course.id)" alt="..." />
+    <img src="{{course.img}}" class="course-card__img-top" (click)="goToPage(course.id)" loading="lazy" alt="..." />
     <div class="box-padding">
       <a class="course-card__title" [href]="'#/course/'+course.id">
         <h4>
