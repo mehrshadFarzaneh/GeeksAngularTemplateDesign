@@ -86,8 +86,14 @@
                   </ul>
                 </div>
                 <!-- FAQ -->
-                <div class="faq-container">
-                  
+                <div *ngIf="!flagContentFAQ" class="faq-container">
+                  <h3>
+                    Course - Frequently Asked Questions
+                  </h3>
+                  <div *ngFor="let faqItem of currentCourse?.faq">
+                    <h4>{{faqItem.question}}</h4>
+                    <p>{{faqItem.answer}}</p>
+                  </div>
                 </div>
               </div>
             </div>
