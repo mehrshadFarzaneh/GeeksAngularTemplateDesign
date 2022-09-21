@@ -14,6 +14,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { CoursesPageComponent } from './Pages/courses-page/courses-page.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { PersonMangerComponent } from './Pages/person-manger/person-manger.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     // CourseCardComponent,
     // BtnComponent,
     CoursesPageComponent,
+    PersonMangerComponent,
     // HomePageComponent,
 
   ],

@@ -1,3 +1,4 @@
+import { PersonMangerComponent } from './Pages/person-manger/person-manger.component';
 import { CoursesPageComponent } from './Pages/courses-page/courses-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'course/:id',
     component:CoursesPageComponent
+  },
+  {
+    path: 'person',
+    component:PersonMangerComponent
   },
 ];
 
